@@ -56,10 +56,6 @@ class Inward:
                 str_face += f"{self.face_list[i_face][i] + 1} "
             object_string_list.append(str_face[:-1])
 
-            # object_string_list.append(
-            #     f"f {self.face_list[i_face][0] + 1} {self.face_list[i_face][1] + 1} {self.face_list[i_face][2] + 1}"
-            # )
-
         return object_string_list
 
     def __vertex_normals(self, vertice_list, face_list):
