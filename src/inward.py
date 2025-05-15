@@ -1,4 +1,4 @@
-import src.math as math_utils
+from src import c_math as math_utils
 
 
 class Inward:
